@@ -11,7 +11,7 @@ Aprendi a programar na época da faculdade e me tornei um apaixonado por desenvo
 
 Atualmente trabalho bastante com javascript
 no front tenho experiência com os frameworks Angular e Angular js e Ionic no mobile.
-no back tenho experiência com express e serverless
+no backend tenho experiência com express e serverless
 
 Linguagens e ferramentas:
 
