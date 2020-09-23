@@ -24,5 +24,7 @@ Linguagens e ferramentas:
 - Autenticação com JWT
 - GitHub Actions
 - Aws Lambda, S3, EC2.
+- Mysql
+- Postgres
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=LeoFalco&&show_icons=true&count_private=true&&hide=contribs&line_height=27&v=5)
