@@ -4,14 +4,9 @@
 
 ## Sobre mim
 
-Formado em Informática para Negócios pela [Fatec Rio Preto](http://www.fatecriopreto.edu.br/),
-atualmente trabalho como desenvolvedor full stack na [Field Control](https://fieldcontrol.com.br/).
-
-Aprendi a programar na época da faculdade e me tornei um apaixonado por desenvolvimento e tecnologia.
-
-Atualmente trabalho bastante com javascript
-no front tenho experiência com os frameworks Angular e Angular js e Ionic no mobile.
-no backend tenho experiência com express e serverless
+Formado em Informática para Negócios pela Fatec Rio Preto, 
+aprendi a programar na época da faculdade e me tornei um apaixonado por desenvolvimento e tecnologia.
+atualmente trabalho como desenvolvedor full stack no time da Field Control.
 
 Linguagens e ferramentas:
 
