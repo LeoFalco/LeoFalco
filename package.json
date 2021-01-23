@@ -1,0 +1,38 @@
+{
+  "name": "leofalco",
+  "private": true,
+  "version": "1.0.0",
+  "description": "LeoFalco github page",
+  "main": "index.js",
+  "scripts": {
+    "prettier-check": "npx prettier . --check",
+    "prettier-write": "npx prettier . --write",
+    "markdownlint-check": "npx markdownlint '**/*.md' --ignore node_modules",
+    "lint": "npm run prettier-check && npm run markdownlint-check",
+    "lint-fix": "npm run prettier-write",
+    "pretest": "npm run lint",
+    "test": "echo 'No testes to run'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoFalco/LeoFalco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeoFalco/LeoFalco/issues"
+  },
+  "homepage": "https://github.com/LeoFalco/LeoFalco#readme",
+  "devDependencies": {
+    "husky": "4.3.8",
+    "markdownlint-cli": "0.26.0",
+    "prettier": "2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test"
+    }
+  }
+}
