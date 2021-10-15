@@ -22,6 +22,7 @@ Atualmente trabalho como desenvolvedor full stack no time da Field Control.
 - AWS Lambda, SQS, S3, EC2, RDS.
 - Mysql
 - Postgres
+- OpenID Connect
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=LeoFalco&&show_icons=true&count_private=true&line_height=27&v=5)
 
