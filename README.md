@@ -10,7 +10,7 @@ na época da faculdade e me tornei um apaixonado por desenvolvimento e
 tecnologia.
 Atualmente trabalho como desenvolvedor full stack no time da Field Control.
 
-## Linguagens e ferramentas
+## Linguagens, Tecnologias e Ferramentas
 
 - Angular 2+ / Angular js
 - Ionic
