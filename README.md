@@ -17,7 +17,7 @@ Atualmente trabalho como desenvolvedor full stack no time da Field Control.
 - Rest
 - GraphQL
 - Serverless
-- Autenticação com Json Web Token
+- Autenticação com JWT
 - GitHub Actions
 - AWS Lambda, SQS, S3, EC2, RDS.
 - Mysql
