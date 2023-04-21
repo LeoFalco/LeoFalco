@@ -26,7 +26,7 @@
   "homepage": "https://github.com/LeoFalco/LeoFalco#readme",
   "devDependencies": {
     "husky": "4.3.8",
-    "markdownlint-cli": "0.26.0",
+    "markdownlint-cli": "0.33.0",
     "prettier": "2.2.1",
     "pretty-quick": "^3.1.0"
   },
