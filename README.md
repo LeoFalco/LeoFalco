@@ -12,17 +12,15 @@ Atualmente trabalho como desenvolvedor full stack no time da Field Control.
 
 ## Linguagens, Tecnologias e Ferramentas
 
-- Angular 2+ / Angular js
+- Angular
 - Ionic
 - Rest
 - GraphQL
 - Serverless
-- Autenticação com JWT
 - GitHub Actions
-- AWS Lambda, SQS, S3, EC2, RDS.
-- Mysql
+- AWS Lambda, SQS, S3, EC2, RDS
 - Postgres
-- OpenID Connect
+- OpenID
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=LeoFalco&&show_icons=true&count_private=true&line_height=27&v=5)
 
