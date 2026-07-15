@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leonardo Jesus Falco — Currículo</title>
+<style>
+  :root {
+    --accent: #1a5f7a;
+    --accent-dark: #0d3d52;
+    --text: #232629;
+    --muted: #5c636b;
+    --line: #e2e6ea;
+    --bg: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: #eef1f4;
+    line-height: 1.55;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 840px;
+    margin: 32px auto;
+    background: var(--bg);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  /* Cabeçalho */
+  header {
+    background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+    color: #fff;
+    padding: 40px 48px 32px;
+  }
+  header h1 {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 4px;
+  }
+  header .role {
+    font-size: 17px;
+    font-weight: 400;
+    opacity: 0.92;
+    margin-bottom: 18px;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    font-size: 13.5px;
+    opacity: 0.95;
+  }
+  .contact a { color: #fff; text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  .contact span::before {
+    content: "";
+    display: inline-block;
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.7);
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  /* Corpo */
+  main { padding: 32px 48px 44px; }
+  section { margin-bottom: 30px; }
+  section:last-child { margin-bottom: 0; }
+  h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--accent);
+    font-weight: 700;
+    padding-bottom: 7px;
+    border-bottom: 2px solid var(--line);
+    margin-bottom: 16px;
+  }
+  p.summary { color: var(--text); text-align: justify; }
+
+  /* Skills */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 8px 16px;
+    font-size: 14px;
+  }
+  .skills-grid dt { font-weight: 600; color: var(--muted); }
+  .skills-grid dd { color: var(--text); }
+
+  /* Experiência */
+  .job { margin-bottom: 22px; }
+  .job:last-child { margin-bottom: 0; }
+  .job-head {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px;
+  }
+  .job-title { font-weight: 700; font-size: 15.5px; }
+  .job-company { color: var(--accent); font-weight: 600; }
+  .job-period { color: var(--muted); font-size: 13px; white-space: nowrap; }
+  .job-location { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+  ul.bullets { list-style: none; }
+  ul.bullets li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 6px;
+    color: var(--text);
+  }
+  ul.bullets li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 9px;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  ul.bullets strong { color: var(--accent-dark); }
+
+  /* Blocos simples (educação, certificações) */
+  .item { margin-bottom: 12px; }
+  .item:last-child { margin-bottom: 0; }
+  .item-title { font-weight: 700; }
+  .item-sub { color: var(--muted); font-size: 13.5px; }
+
+  /* Impressão */
+  @media print {
+    body { background: #fff; font-size: 12.5px; }
+    .page { box-shadow: none; margin: 0; max-width: none; border-radius: 0; }
+    header { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    ul.bullets li::before, h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+
+  @media (max-width: 600px) {
+    header, main { padding-left: 24px; padding-right: 24px; }
+    .skills-grid { grid-template-columns: 1fr; gap: 2px; }
+    .skills-grid dt { margin-top: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Leonardo Jesus Falco</h1>
+    <div class="role">Engenheiro de Software</div>
+    <div class="contact">
+      <span>São José do Rio Preto</span>
+      <span><a href="mailto:leonardo.falco@outlook.com">leonardo.falco@outlook.com</a></span>
+      <span><a href="https://linkedin.com/in/leo-falco">linkedin.com/in/leo-falco</a></span>
+      <span><a href="https://github.com/LeoFalco">github.com/LeoFalco</a></span>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Resumo Profissional</h2>
+      <p class="summary">Desenvolvedor de software orientado a resultados, com mais de 6 anos de experiência na construção, teste e manutenção de aplicações web. Proficiente em diversas linguagens de programação, frameworks e ferramentas de desenvolvimento, com forte foco em desenvolvimento back-end, APIs e serviços em nuvem. Capacidade comprovada de colaborar com equipes multidisciplinares para entregar soluções robustas e escaláveis. Aberto a aprender novas tecnologias e linguagens para resolver problemas complexos.</p>
+    </section>
+
+    <section>
+      <h2>Destaques</h2>
+      <ul class="bullets">
+        <li><strong>5.400+ pull requests</strong> autorados (~92% aprovados) e <strong>9.000+ code reviews</strong> em 6+ anos — referência técnica e guardião de qualidade da engenharia.</li>
+        <li>Liderou a <strong>criptografia CMK de filas SQS/SNS em 18 microsserviços</strong>, elevando a segurança e conformidade da infraestrutura AWS.</li>
+        <li>Conduziu migrações de larga escala pela frota de serviços: <strong>Serverless Framework → AWS SAM</strong>, <strong>AWS SDK v2 → v3</strong> e padronização de <strong>Node.js LTS</strong>.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Competências Técnicas</h2>
+      <dl class="skills-grid">
+        <dt>Linguagens</dt>
+        <dd>JavaScript, Java, SQL</dd>
+        <dt>Frameworks</dt>
+        <dd>Angular, Express.js, Spring Boot</dd>
+        <dt>Plataformas de Nuvem</dt>
+        <dd>AWS (S3, Lambda, Elastic Beanstalk, CloudFormation)</dd>
+        <dt>Bancos de Dados</dt>
+        <dd>MySQL, PostgreSQL, DynamoDB</dd>
+        <dt>Controle de Versão</dt>
+        <dd>Git, GitHub</dd>
+        <dt>Ferramentas de CI/CD</dt>
+        <dd>GitHub Actions, AWS CodeBuild</dd>
+        <dt>Outros</dt>
+        <dd>GraphQL e APIs RESTful, Microsserviços, Docker, Ágil/Scrum</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Experiência Profissional</h2>
+
+      <div class="job">
+        <div class="job-head">
+          <div class="job-title">Engenheiro de Software Sênior <span class="job-company">· Field Control</span></div>
+          <div class="job-period">Fevereiro de 2020 – Atual (6 anos)</div>
+        </div>
+        <div class="job-location">São José do Rio Preto</div>
+        <ul class="bullets">
+          <li>Desenvolvi e mantive aplicações web full-stack em arquitetura de <strong>microsserviços</strong>, usando <strong>Node.js</strong> no back-end e <strong>Angular</strong> no front-end.</li>
+          <li>Projetei e implementei <strong>APIs GraphQL e REST</strong>, facilitando a troca de dados entre serviços e melhorando a escalabilidade do sistema.</li>
+          <li>Liderei uma campanha de segurança de infraestrutura AWS, cifrando filas <strong>SQS</strong> e tópicos <strong>SNS</strong> com chaves gerenciadas (<strong>CMK</strong>) em <strong>18 microsserviços</strong>.</li>
+          <li>Conduzi a migração do <strong>Serverless Framework</strong> para AWS SAM/osls e do <strong>AWS SDK v2 para v3</strong> em mais de 10 serviços, reduzindo custos de licenciamento e dependências legadas.</li>
+          <li>Padronizei o runtime <strong>Node.js LTS</strong> e o pipeline de <strong>CI/CD</strong> (GitHub Actions, Dependabot, AWS CodeBuild) em toda a frota de serviços.</li>
+          <li>Atuei como referência técnica em ambiente Ágil: autor de <strong>5.400+</strong> pull requests (~92% aprovados) e revisor de <strong>9.000+</strong> PRs, mantendo a qualidade e o padrão de código entre as equipes.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <div class="job-title">Desenvolvedor Júnior <span class="job-company">· Sifat Sistemas</span></div>
+          <div class="job-period">Fevereiro de 2018 – Janeiro de 2020 (2 anos)</div>
+        </div>
+        <div class="job-location">São José do Rio Preto</div>
+        <ul class="bullets">
+          <li>Desenvolvi em <strong>Java/Spring Boot</strong> a integração entre o sistema de ponto de venda e o sistema de pedidos do iFood.</li>
+          <li>Desenvolvi módulos específicos para impressoras fiscais e leitores de código de barras, garantindo a comunicação entre o sistema e os dispositivos físicos usados no ponto de venda (PDV).</li>
+          <li>Desenvolvi relatórios personalizados para gestão de desempenho, análise de vendas e controle de estoque, utilizando ferramentas de BI e integração com banco de dados SQL.</li>
+          <li>Mantive e atualizei sistemas legados, implementando novas funcionalidades e corrigindo defeitos para garantir eficiência e segurança dos processos.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <div class="job-title">Monitor de Algoritmos <span class="job-company">· FATEC Rio Preto</span></div>
+          <div class="job-period">Março de 2017 – Junho de 2017 (4 meses)</div>
+        </div>
+        <div class="job-location">São José do Rio Preto</div>
+        <ul class="bullets">
+          <li>Auxílio aos alunos na compreensão e implementação de algoritmos e estruturas de dados.</li>
+          <li>Apoio na resolução de problemas práticos e correção de exercícios.</li>
+          <li>Criação de materiais complementares e realização de plantões de dúvidas para suporte adicional aos alunos.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Formação</h2>
+      <div class="item">
+        <div class="item-title">Informática para Negócios</div>
+        <div class="item-sub">FATEC Rio Preto — São José do Rio Preto · Concluído em 2017</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Idiomas</h2>
+      <div class="item">
+        <div class="item-title">Português <span class="item-sub">— Nativo</span></div>
+      </div>
+      <div class="item">
+        <div class="item-title">Inglês <span class="item-sub">— Intermediário</span></div>
+      </div>
+    </section>
+
+  </main>
+</div>
+</body>
+</html>
