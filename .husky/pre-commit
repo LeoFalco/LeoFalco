@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Se curriculo.html esta no commit, regenera o PDF e inclui no commit.
+if git diff --cached --name-only | grep -q '^curriculo\.html$'; then
+  echo "curriculo.html alterado — regenerando curriculo.pdf"
+  npm run pdf
+  git add curriculo.pdf
+fi

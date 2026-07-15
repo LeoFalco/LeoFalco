@@ -10,8 +10,10 @@
     "markdownlint-check": "npx markdownlint '**/*.md' --ignore node_modules",
     "lint": "npm run prettier-check && npm run markdownlint-check",
     "lint-fix": "npm run prettier-write",
+    "pdf": "node scripts/build-pdf.js",
     "pretest": "npm run lint",
-    "test": "echo 'No testes to run'"
+    "test": "echo 'No testes to run'",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -28,11 +30,10 @@
     "husky": "8.0.3",
     "markdownlint-cli": "0.33.0",
     "prettier": "2.2.1",
-    "pretty-quick": "^3.1.0"
+    "pretty-quick": "^3.1.0",
+    "puppeteer": "^25.3.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run test"
-    }
+  "allowScripts": {
+    "puppeteer@25.3.0": true
   }
 }
