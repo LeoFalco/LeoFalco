@@ -6,13 +6,13 @@
 
 const { pathToFileURL } = require("url");
 const { join } = require("path");
-const puppeteer = require("puppeteer");
 
 const ROOT = join(__dirname, "..");
 const HTML = join(ROOT, "curriculo.html");
 const PDF = join(ROOT, "curriculo.pdf");
 
 async function main() {
+  const { default: puppeteer } = await import("puppeteer");
   const browser = await puppeteer.launch({ headless: "new" });
   try {
     const page = await browser.newPage();
